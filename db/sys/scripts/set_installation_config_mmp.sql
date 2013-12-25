@@ -1,5 +1,3 @@
-create context config_ctx using dbms_session;
-
 begin
    dbms_session.set_context ('config_ctx', 'tablespace', 'MMP2');
    dbms_session.set_context ('config_ctx', 'copy_tablespace', 'USERS');
