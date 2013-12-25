@@ -18,7 +18,7 @@ begin
 end;
 /
 
-@@./create_tablespace_mmp.sql
+@@./create_tablespace_from_context.sql
 
-@@./create_user_mmp.sql
+@@./create_user_from_context.sql
 
